@@ -1,0 +1,22 @@
+{
+  "name": "wm786-cli--number-guessing_challenge",
+  "version": "2.0.1",
+  "description": "Welcome to the CLI Guessing Game! Test your intuition and logic skills with this interactive command-line guessing game. Challenge yourself or compete with friends to see who can guess the correct answer in the fewest attempts.",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
